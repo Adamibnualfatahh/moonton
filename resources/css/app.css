@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "input.css";
+@import "sidebar.css";
+@import "button.css";
+
+.flex::before,
+.flex::after {
+    display: none !important;
+}
+
+body {
+    background-color: #000000;
+}
