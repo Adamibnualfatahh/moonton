@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title inertia>{{ config('app.name', 'Laravel') }}</title>
-
+        <link rel="icon" href="{{ asset('/icons/ic_star-rounded.svg') }}" type="image/x-icon"/>
         <!-- Fonts -->
        <style>
             @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
