@@ -1,4 +1,5 @@
 import Sidebar from "@/Layouts/Authenticated/Sidebar.jsx";
+import Topbar from "@/Layouts/Authenticated/Topbar.jsx";
 
 export default function Authenticated({ children }) {
 	return (
@@ -12,7 +13,7 @@ export default function Authenticated({ children }) {
                 <div className="ml-[300px] px-[50px]">
                     <div className="py-10 flex flex-col gap-[50px]">
                     {/*START: Topbar*/}
-
+                    <Topbar/>
                     {/*END: Topbar*/}
                         <main>{children}</main>
                     </div>
